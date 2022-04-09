@@ -1,0 +1,7 @@
+create Schema agenciaviagem;
+use agenciaviagem;
+create table agenciaviagem(
+id int primary key auto_increment,
+nome varchar(50),
+endereco varchar(50),
+destino varchar(50));
