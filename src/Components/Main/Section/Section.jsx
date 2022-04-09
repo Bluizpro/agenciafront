@@ -5,7 +5,7 @@ import fotosdoslugares from '../../../assets/img/moscou.jpg';
 
 
 
-// eslint-disable-next-line import/no-anonymous-default-export
+
 export default () => {
     return (
         <section className="divCards container-fluid">

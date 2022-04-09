@@ -1,7 +1,8 @@
-/* eslint-disable import/no-anonymous-default-export */
+
 import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css'
+
 
 export default () => {
     return (
@@ -20,12 +21,12 @@ export default () => {
                             <ul>
                                 <li>
                                     <Link to="/Navbar">
-                                        <p>Inicial</p>
+                                        <a>Inicial</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/Login">
-                                        <p>Cadastro</p>
+                                        <a>Cadastro</a>
                                     </Link>
                                 </li>                                
                                 
